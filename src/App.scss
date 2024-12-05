@@ -1,0 +1,133 @@
+@import "../src/scss/bootstrap";
+@import "../src/scss/loader";
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.header-background {
+  min-height: 92vh;
+  background: #BA8B02;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #181818, #BA8B02);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #181818, #BA8B02);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header-partition-styling {
+  min-height: 92vh;
+}
+
+.bak {
+
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.dis {
+  display: flex;
+  height: 527px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ima {
+  height: 220px;
+
+}
+
+.cards-align {
+  display: flex;
+
+}
+
+
+.img-setting{
+  height: 200px;
+}
+
+.outer{
+  height: 100%;
+  margin: 0;
+}
+
+.login-styling{
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.register-styling{
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.link-styling{
+  text-decoration: none;
+  color: black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+// img {
+//   max-width: 100px; /* Adjust as needed */
+//   height: auto;
+// }
